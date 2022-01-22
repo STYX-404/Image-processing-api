@@ -1,0 +1,1 @@
+# this is the root folder for resized images
