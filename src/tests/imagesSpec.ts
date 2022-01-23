@@ -1,5 +1,5 @@
-import processing from '../routes/api/utilities'
 import fs from 'fs'
+import processing from '../routes/api/utilities'
 
 describe('Testing the images processing module', () => {
   it('Expecting a new image (img2_thumb_100_100) is generated in thumb folder with the desired width and height', async (): Promise<void> => {
