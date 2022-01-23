@@ -19,6 +19,10 @@ module.exports = {
     }
   },
   rules: {
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: true, optionalDependencies: false, peerDependencies: false }
+    ],
     semi: ['error', 'never'],
     'no-console': 'off',
     'prettier/prettier': 2,

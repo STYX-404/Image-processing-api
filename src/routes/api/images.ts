@@ -16,9 +16,9 @@ images.get('/', (req: Request, res: Response): void => {
     //  check if the file name existes, if not the server throws an error to the user to enter a valid file name
     try {
       // the sharp library function, takes the image path as parameter,resize it to the desired (width,height) then save it to the new path
-     await processing(imgPath, imgWidth, imgHeight, resizedImagePath)
+      await processing(imgPath, imgWidth, imgHeight, resizedImagePath)
     } catch (error) {
-     res.send('🔴Wrong file name: please choose a valid image name to be processed!')
+      res.send('🔴Wrong file name: please choose a valid image name to be processed!')
     }
     //  send the resized image to the server
     res.sendFile(resizedImagePath, { root: '.' })

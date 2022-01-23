@@ -1,7 +1,7 @@
 {
   "name": "image_processing_api_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an API that resizes images to the desired width and height made for udacity FWD course",
   "main": "index.js",
   "scripts": {
     "test": "npx tsc && jasmine",
@@ -38,5 +38,13 @@
     "prettier": "^2.5.1",
     "supertest": "^6.2.2",
     "typescript": "^4.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STYX-404/Image-processing-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/STYX-404/Image-processing-api/issues"
+  },
+  "homepage": "https://github.com/STYX-404/Image-processing-api#readme"
 }
